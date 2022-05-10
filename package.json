@@ -1,0 +1,44 @@
+{
+    "name": "@hikingtrails-hu/hikingtrails-lib",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/hikingtrails-hu/hikingtrails-lib.git"
+    },
+    "author": "Lencse <leventeloki@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hikingtrails-hu/hikingtrails-lib/issues"
+    },
+    "homepage": "https://github.com/hikingtrails-hu/hikingtrails-lib#readme",
+    "directories": {
+        "test": "test"
+    },
+    "description": "",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "files": [
+        "dist",
+        "src"
+    ],
+    "scripts": {
+        "prepublishOnly": "git clean -fdx && make"
+    },
+    "devDependencies": {
+        "@types/jest": "^27.4.1",
+        "@typescript-eslint/eslint-plugin": "^5.22.0",
+        "@typescript-eslint/parser": "^5.22.0",
+        "coveralls": "^3.1.1",
+        "eslint": "^8.14.0",
+        "eslint-config-standard-with-typescript": "^21.0.1",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "jest": "27",
+        "ts-jest": "^27.1.4",
+        "typescript": "^4.6.4"
+    }
+}
